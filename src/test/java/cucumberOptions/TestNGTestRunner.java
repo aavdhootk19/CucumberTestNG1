@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue = "stepDefinations",
 		monochrome = true,
 		dryRun = false,
-		tags="@HRM",
+		tags="@createUser",
 		plugin = {"html:target/cucumber.html", "json:target/cucumber.json",  // To create HTML report
 			//	"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"  // To create extent report
 			"rerun:target/failed_scenarios.txt"	
