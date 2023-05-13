@@ -8,6 +8,6 @@ public class TestContextSetup {
 //	public WebDriver driver;
 	public String landingPageProductName;
 	public String offerPageProductName;
-
+	public String product;
 
 }

@@ -17,7 +17,12 @@ public class Hooks extends BasePage {
 		openBrowser();	
 	}
 	
-	
+	@After
+	public void tearDown()
+	{
+		driver.close();
+		driver.quit();
+	}
 	
 	
 }
